@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="shortcut icon" href="image/logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="icon/themify-icons/themify-icons.css">
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+<!--header-->
+<div class="headers">
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 menu-navbar">
+                    <div class="menu1">
+                        <a href="Support.html">Support</a>
+                        <a href="ContactUs.html">Contact Us</a>
+                        <span class="sub-navbar">
+                        <a href="#" style="font-weight: bold;">English</a>
+                            <span>|</span>
+                        <a href="#">VietNam</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--nav-->
+    <div class="header-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-md-1">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="image/logo.png" alt="BANANA">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-4">
+                    <div class="nav-menu">
+                        <ul class="nav-text">
+                            <li><a href="Otd.html">OTD</a></li>
+                            <li><a href="Men.html">men</a></li>
+                            <li><a href="Women.html">women</a></li>
+                            <li><a href="Kids.html">kids</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="input-group input-group-1">
+                        <input type="text" class="form-control" placeholder="Search by Keyword">
+                        <div class="input-group-prepend btn-search-nav">
+                            <a href="" class="input-group-text"><img src="image/header/search.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="nav-icon">
+                        <a href="login.html"><i class="ti-user"></i></a>
+                        <a href="Favourite.html"><i class="ti-heart"></i></a>
+                        <a href="Cart.html"><i class="ti-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------->
+<!--breadcrumb-->
+<div class="breadcrumb-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-text">
+                    <a href="index.html"><i class="ti-home"></i> </a>
+                    <i class="ti-angle-right"></i>
+                    <span>Login</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--login-->
+    <div class="container bd-login">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="form-login">
+                    <div class="fl-title">
+                            <span class="tit">LOGIN</span>
+                            <span>Required *</span>
+                    </div>
+                    <div class="fl-text1">
+                        <span>Login in with your email address and password</span>
+                        <div class="fl-icon"><i class="ti-info-alt"></i> </div>
+                    </div>
+                    <div class="fl-text2">
+                        <span>Please do not reuse a password you have used on another services or a password</span>
+                    </div>
+                    <div class="form-group fg">
+                        <lable for="InputEmail">EMAIL ADDRESS *</lable>
+                        <input type="text" class="form-control" placeholder="Enter a valid email" id="InputEmail">
+                    </div>
+                    <div class="form-group fg">
+                        <lable for="InputPass">PASSWORD *</lable>
+                        <input type="password" class="form-control" placeholder="" id="InputPass">
+                    </div>
+                    <div class="fl-check">
+                        <span>Password must be at least 8 characters, and contain both letters and numbers</span>
+                        <div class="fl-check-show">
+                            <div class="row">
+                                <div class="col-md-1" style="height: 100%">
+                                    <input type="checkbox" class="form-control" id="check-pass">
+                                </div>
+                                <div class="col-md-11" style="height: 100%">
+                                    <label for="check-pass">Show my password</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fl-policy">
+                            <a href="support.html">TERMS OF USE</a>
+                            <a href="support.html">PRIVARY POLICY</a>
+                    </div>
+                    <div class="fl-btn">
+                        <button type="submit" class="btn-dark">LOG IN</button>
+                        <div class="fl-forgot">
+                            <a href="">FORGOT YOUR PASSWORD?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 bd-right">
+                <div class="form-create">
+                    <h3>CREATE AN ACCOUNT</h3>
+                    <span>If you create an account, you can get personalized services like checking purchase history...</span>
+                    <div class="fc-btn">
+                        <a href="register.html">CREATE AN ACCOUNT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------------------->
+<!--footer-->
+<div class="login-end">
+    <div class="container">
+        <div class="login-end-text">
+            <span>COPYRIGHT © BANANA CO., LTD. ALL RIGHTS RESERVED.</span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
